@@ -1,0 +1,12 @@
+type: app
+description: java project com exemplo de padrao specification
+template: teste-specification/base-template
+inputs:
+  some_input: value
+plugins:
+- plugin: <stack-name>/<plugin-name>
+  inputs:
+    some_input: value
+    some_list:
+    - item1
+    - item2

@@ -1,0 +1,9 @@
+name: base-template
+description: template de teste baseado na stack de especification para estudo do stackspot
+types:
+  - app-template
+inputs:
+  - label: Project name
+    type: text
+    name: project_name
+    default: project-name
